@@ -50,6 +50,7 @@ const PasswordContainer = () => {
       }
       
       if ((symbols && lowercase && numbers && passLength >= 8) ||
+          (uppercase && symbols && passLength >= 8) ||
           (uppercase && symbols && numbers && passLength >= 8)) {
          setPasswordStrength(4)
       }
