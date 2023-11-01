@@ -1,18 +1,25 @@
+export const passwordNames = {
+   uppercase: 'uppercase',
+   lowercase: 'lowercase',
+   numbers: 'numbers',
+   symbols: 'symbols',
+}
+
 export const passwordConditions = [
    {
-      name: 'uppercase',
+      name: passwordNames.uppercase,
       label: 'Include uppercase letters'
    },
    {
-      name: 'lowercase',
+      name: passwordNames.lowercase,
       label: 'Include lowercase letters'
    },
    {
-      name: 'numbers',
+      name: passwordNames.numbers,
       label: 'Include numbers'
    },
    {
-      name: 'symbols',
+      name: passwordNames.symbols,
       label: 'Include symbols'
    },
 ]
